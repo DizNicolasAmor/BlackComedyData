@@ -1,0 +1,69 @@
+/*
+BlackComedyData
+- - - - - - - - - -
+http://codepen.io/DizNicolasAmor/pen/apRLRL
+Author:  Diz, Nicolás Amor (https://github.com/DizNicolasAmor)
+This project is a challenge posed by FreeCodeCamp.
+Build a wikipedia viewer and use the API sandbox
+*/
+
+
+h1,h2,h3,h4 {
+  font-family: Arial;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+/* classes */
+
+.content {
+  border-radius: 5%;
+  width: 80vw;
+  max-width: 45em;
+  padding: 1.5em;
+  margin: 5% auto;
+  background: rgba(255, 255, 255, .75);
+  box-shadow: .5em .5em .5em rgba(0, 0, 0, .4);
+}
+
+.buttons{
+  font-family: 'Arial';
+  font-size: 1.0em;
+  font-weight: 100;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  border-radius: 10%;
+}
+
+#section1{
+  background: 100%, url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Happy_Halloween!_(5133602212).jpg/1024px-Happy_Halloween!_(5133602212).jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* other backgrounds: 
+https://upload.wikimedia.org/wikipedia/commons/b/b5/Halloween.JPG
+
+https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Happy_Halloween!_(5133602212).jpg/1024px-Happy_Halloween!_(5133602212).jpg
+
+https://upload.wikimedia.org/wikipedia/commons/a/a2/Jack-o%27-Lantern_2003-10-31.jpg
+
+https://cdn.pixabay.com/photo/2016/11/07/10/49/halloween-1805457_960_720.jpg
+
+https://cdn.pixabay.com/photo/2013/10/28/19/04/pumpkin-201956_960_720.jpg
+*/
+
+#section2{
+  background: white; 
+}
+
+#searchTerm{
+  text-align: center;
+}
+
+#output{
+  text-align: justify;
+}
