@@ -37,6 +37,10 @@ h1,h2,h3,h4 {
   border-radius: 10%;
 }
 
+.buttons:hover{
+  background-color: Gainsboro;
+}
+
 #section1{
   background: 100%, url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Happy_Halloween!_(5133602212).jpg/1024px-Happy_Halloween!_(5133602212).jpg");
   background-position: center center;
