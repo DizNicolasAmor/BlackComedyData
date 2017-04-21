@@ -12,9 +12,9 @@ Build a wikipedia viewer and use the API sandbox
 h1,h2,h3,h4 {
   font-family: Arial;
   font-family: 'Kaushan Script', cursive;
-  font-weight: 600;
+  font-weight: 400;
   text-align: center;
-  color: DarkRed;
+/*  color: DarkRed;*/
 }
 
 
