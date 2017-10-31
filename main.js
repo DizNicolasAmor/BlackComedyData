@@ -1,16 +1,4 @@
-/*
-BlackComedyData
-- - - - - - - - - -
-http://codepen.io/DizNicolasAmor/pen/apRLRL
-Author:  Diz, Nicolás Amor (https://github.com/DizNicolasAmor)
-This project is a challenge posed by FreeCodeCamp.
-Build a wikipedia viewer and use the API sandbox
-*/
-
-
 $(document).ready(function() {
-  
-  //To do: add more links: directors, authors, countries. 
   
   //buttons
   var films = ["https://en.wikipedia.org/wiki/Special:RandomInCategory/American_criminal_comedy_films", "https://en.wikipedia.org/wiki/Special:RandomInCategory/Zombie_comedy_films"];
@@ -53,10 +41,8 @@ $(document).ready(function() {
       error: function(errorMessage){
         alert('Error');
       }
-      
-    })
+    });
+
+  });  //search
   
-  
-  }); // #search
-  
-});  //document ready
+});

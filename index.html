@@ -1,16 +1,20 @@
 <!--
-BlackComedyData
-- - - - - - - - - -
-https://diznicolasamor.github.io/BlackComedyData/
-Author:  Diz, Nicolás Amor (https://github.com/DizNicolasAmor)
-This project is a challenge posed by FreeCodeCamp.
-Build a wikipedia viewer and use the API sandbox
+Nico Diz
+
+https://github.com/DizNicolasAmor
+
+You can see this project here: 
+- https://diznicolasamor.github.io/BlackComedyData/
+- http://codepen.io/DizNicolasAmor/pen/apRLRL
+
+The user can see Black Comedy data from Wikipedia API and do his own search. 
+
+This project is a challenge posed by FreeCodeCamp. Be free to use it and change it. 
 -->
 
-<!doctype HTML>
-<html>
+<html lang="en">
   <head>
-    <title>BlackComedyData</title>
+    <title>Black Comedy Data</title>
 
     <meta name="viewport" content="height=device-height, initial-scale=1.0, user-scalable=no"/>
     
@@ -22,46 +26,26 @@ Build a wikipedia viewer and use the API sandbox
   </head>
 
   <body>
-    <section id="section1" class="container-fluid">
-      <div class="content">
-        <h3>Random data about</h3>
-        <h1>Black Comedy</h1>
-        &nbsp;
-        <h3>Today I'll learn about... </h3>
-        &nbsp;
+    <div class="container">
+      <h3>Random wiki data about</h3>
+      <h1>Black Comedy</h1>
+      &nbsp;
+      <h3>Today I'll learn about... </h3>
 
-        <div class="row">
-          <div class="col-xs-4">
-            <button class="button buttons center-block" id="films"><h4>FILMS</h4></button>
-          </div>
-          <div class="col-xs-4">
-            <button class="button buttons center-block" id="books"><h4>BOOKS</h4></button>
-          </div>
-          <div class="col-xs-4">
-            <button class="button buttons center-block" id="series"><h4>SERIES</h4></button>
-          </div>
-        </div>
-
-      </div>
-    </section>
-    
-    <section id="section2" class="container-fluid">
-      <div class="content">
-        <h4>Do your own search: </h4>
-        <input class="from-control center-block" id="searchTerm">
-        <button id="search" type="button" class="btn btn-primary center-block">Search</button> 
-        
-        <ul id="output">
-        </ul>
-
-        <footer>
-          <span class="pull-right">
-            <a href="#">Back to Top</a>
-          </span>
-        </footer>
+      <div id="buttonsWraper">
+        <button class="btn btn-default" id="films"><h5>FILMS</h5></button>
+        <button class="btn btn-default" id="books"><h5>BOOKS</h5></button>
+        <button class="btn btn-default" id="series"><h5>SERIES</h5></button>
       </div>
 
-    </section>
+      &nbsp;
+      <h4>Do your own search: </h4>
+      <input class="from-control center-block" id="searchTerm">
+      <button id="search" type="button" class="btn btn-primary center-block">Search</button> 
+
+      <ul id="output">
+      </ul>
+    </div>
     
     <!-- jQuery-->
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
