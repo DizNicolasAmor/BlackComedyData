@@ -1,11 +1,15 @@
-# BlackComedyData
-Random Wikipedia Articles about Black Comedy &amp; Wikipedia API search
+## BlackComedyData
 
-/*
-BlackComedyData
-- - - - - - - - - -
-http://codepen.io/DizNicolasAmor/pen/apRLRL
-Author:  Diz, Nicolás Amor (https://github.com/DizNicolasAmor)
-This project is a challenge posed by FreeCodeCamp.
-Build a wikipedia viewer and use the API sandbox
-*/
+Nico Diz
+
+https://github.com/DizNicolasAmor 
+
+You can see this project here: 
+- https://diznicolasamor.github.io/BlackComedyData/ 
+- http://codepen.io/DizNicolasAmor/pen/apRLRL
+
+The user can see random data about Black Comedy from Wikipedia API. 
+
+This project is a challenge posed by FreeCodeCamp. Be free to use it and change it. 
+
+![CBDataREADME](/images/CBDataREADME.jpg?raw=true)
