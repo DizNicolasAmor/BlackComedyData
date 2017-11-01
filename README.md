@@ -12,4 +12,4 @@ The user can see random data about Black Comedy from Wikipedia API.
 
 This project is a challenge posed by FreeCodeCamp. Be free to use it and change it. 
 
-![CBDataREADME](/images/CBDataREADME.jpg?raw=true)
+![BCDataREADME](/images/BCDataREADME.jpg?raw=true)
